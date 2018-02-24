@@ -17,6 +17,7 @@ if pg error : sudo apt-get install libpq-dev
 
 # run Application#
 --------------------
+	rake db:version
 	rake db:create
 	rake db:migrate
 	rake db:test:prepare
