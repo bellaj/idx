@@ -12,7 +12,7 @@ group :development do
 end
 
 group :production do
-  sgem 'pg'
+  #gem 'pg'
   gem 'unicorn'
 end
 
