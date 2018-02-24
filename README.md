@@ -16,7 +16,11 @@ Optional : sudo apt install ruby-railties
 if pg error : sudo apt-get install libpq-dev
 
 # run Application#
-rails server
+--------------------
+	rake db:create
+	rake db:migrate
+	rake db:test:prepare
+	rails server
 and visit 127.0.0.1:3000
 
 ** Notice : **
@@ -34,4 +38,7 @@ this Demo works without problem with the following releases :
 ruby 2.3.4p301 (2017-03-30 revision 58214) [x86_64-linux]
   rails -v
 Rails 3.2.13
+
+
+
 
