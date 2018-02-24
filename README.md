@@ -40,5 +40,8 @@ ruby 2.3.4p301 (2017-03-30 revision 58214) [x86_64-linux]
 Rails 3.2.13
 
 
+** heroku **
+ heroku run bash --app "appname"
+
 
 
