@@ -42,7 +42,7 @@ Rails 3.2.13
 
 
 ** heroku **
- heroku run bash --app "appname"
+ heroku run bash --app blockid
 
 
 
