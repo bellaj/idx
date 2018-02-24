@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-#gem 'rails', '~> 5.1.4'
+
+gem 'rails', '3.2.13'
 gem 'sass-rails',   '~> 3.2.3'
 gem 'bootstrap-sass', '~> 3.1.1'
 gem 'devise'
@@ -12,7 +13,7 @@ group :development do
 end
 
 group :production do
-  #gem 'pg'
+  gem 'pg'
   gem 'unicorn'
 end
 
